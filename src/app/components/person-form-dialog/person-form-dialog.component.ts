@@ -1,14 +1,3 @@
-/* import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-person-form-dialog',
-  templateUrl: './person-form-dialog.component.html',
-  styleUrls: ['./person-form-dialog.component.css']
-})
-export class PersonFormDialogComponent {
-
-} */
-
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';

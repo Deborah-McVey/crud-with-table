@@ -41,5 +41,4 @@ import { Injectable } from '@angular/core';
 
       this.persons$.next(this.persons);
     }
-
  }
